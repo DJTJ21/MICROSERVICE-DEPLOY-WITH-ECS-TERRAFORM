@@ -1,0 +1,29 @@
+# Fichiers Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+.terraformrc
+terraform.rc
+
+# Fichiers sensibles
+*.env
+*.pem
+*.key
+*.cert
+*.pub
+id_rsa
+id_dsa
+
+# Fichiers d'environnement/local
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+.DS_Store
